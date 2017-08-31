@@ -1,0 +1,36 @@
+# Input: number A
+NET "A<0>"  LOC = "P11" ; # SW-0
+NET "A<1>"  LOC = "L3"  ; # SW-1
+NET "A<2>"  LOC = "K3"  ; # SW-2
+NET "A<3>"  LOC = "B4"  ; # SW-3
+
+# Input: number B
+NET "B<0>"  LOC = "G3"  ; # SW-4
+NET "B<1>"  LOC = "F3"  ; # SW-5
+NET "B<2>"  LOC = "E2"  ; # SW-6
+NET "B<3>"  LOC = "N3"  ; # SW-7
+
+# Output: register A_REG mapped to LEDs
+NET "A_Reg_Out<0>"  LOC = "M5"  ; # LD-0
+NET "A_Reg_Out<1>"  LOC = "M11" ; # LD-1 
+NET "A_Reg_Out<2>"  LOC = "P7"  ; # LD-2
+NET "A_Reg_Out<3>"  LOC = "P6"  ; # LD-3
+
+NET "B_Reg_Out<0>"  LOC = "N5"  ; # LD-4
+NET "B_Reg_Out<1>"  LOC = "N4"  ; # LD-5
+NET "B_Reg_Out<2>"  LOC = "P4"  ; # LD-6
+NET "B_Reg_Out<3>"  LOC = "G1"  ; # LD-7
+
+# Buttons for clock, parallel load, and operating mode
+NET "CLK"   LOC = "A7"  ; # BTN-3
+NET "Load"  LOC = "M4"  ; # BTN-2
+NET "Mode"  LOC = "C11" ; # BTN-1
+
+# Seven segment display
+NET "Sev_Seg_Out<0>"  LOC = "M12"  ; # G
+NET "Sev_Seg_Out<1>"  LOC = "L13"  ; # F
+NET "Sev_Seg_Out<2>"  LOC = "P12"  ; # E
+NET "Sev_Seg_Out<3>"  LOC = "N11"  ; # D
+NET "Sev_Seg_Out<4>"  LOC = "N14"  ; # C
+NET "Sev_Seg_Out<5>"  LOC = "H12"  ; # B
+NET "Sev_Seg_Out<6>"  LOC = "L14"  ; # A

@@ -1,0 +1,22 @@
+# Input: number A
+NET "A0"  LOC = "P11" ; # SW-0
+NET "A1"  LOC = "L3"  ; # SW-1
+NET "A2"  LOC = "K3"  ; # SW-2
+NET "A3"  LOC = "B4"  ; # SW-3
+
+# Input: number B
+NET "B0"  LOC = "G3"  ; # SW-4
+NET "B1"  LOC = "F3"  ; # SW-5
+NET "B2"  LOC = "E2"  ; # SW-6
+NET "B3"  LOC = "N3"  ; # SW-7
+
+# Output: register A_REG mapped to LEDs
+NET "A_Reg0"  LOC = "M5"  ; # LD-0
+NET "A_Reg1"  LOC = "M11" ; # LD-1
+NET "A_Reg2"  LOC = "P7"  ; # LD-2
+NET "A_Reg3"  LOC = "P6"  ; # LD-3
+
+# Buttons for clock, parallel load, and operating mode
+NET "CLK"   LOC = "A7" ; # BTN-3
+NET "Load"  LOC = "M4" ; # BTN-2
+NET "Mode"  LOC = "C11"; # BTN-1

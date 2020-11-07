@@ -1,11 +1,15 @@
 # 4-bit Serial Adder/Subtractor with Parallel Load
-A simple project, which can facilitate understanding of variables in the "process" statement in VHDL.
+A simple project, which can facilitate understanding of variables in the "process" statement in VHDL by implementing the following schematics:
+
+![Adder/Subtractor](https://www.isabekov.pro/wp-content/uploads/2017/09/FourBitSerialAdder-300x300.png)
 
 Two implementations exist:
 - Schematics
 - VHDL
 
-A tutorial-like explanation can be found at [www.isabekov.pro](https://www.isabekov.pro)
+
+
+A tutorial-like explanation can be found at [www.isabekov.pro/four-bit-serial-adder-subtractor](http://www.isabekov.pro/four-bit-serial-adder-subtractor/)
 
 Copyright (C) 2017 Altynbek Isabekov
 
